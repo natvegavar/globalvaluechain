@@ -1,0 +1,128 @@
+/* CSS files add styling rules to your content */
+
+
+
+body {
+/*   font-family: Calibri; */
+font-family: 'Oswald', sans-serif;
+background-color:	#F8F8F8}
+img {margin:2%;
+border-radius: 3px;
+margin-top:1%}
+
+.recom{margin-bottom: 1px;
+margin-bottom: 1px;}
+
+h1 {
+  color: #fd5c63;
+  font-size: 60px;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 1px;
+  fon-family: Forte, Helvetica, Arial;}
+h2 {
+  color: #fd5c63;
+  font-size: 30px;
+  margin-top: 3%;
+  margin-left: 2%;
+
+}
+p {color:	#686868;
+  margin-top: 1%;
+  margin-left: 2%;
+  font-family: 'Bellota', cursive;
+font-style: italic;}
+
+.description{
+text-align: center;
+font-style: italic;
+font-size: 20px;}
+
+h3 {color:#fd5c63;
+font-size: 22px;
+font-style: italic;
+margin-top: 1%;
+margin-left: 2%;
+
+}
+ul {color:#686868;
+margin-top: 2%;
+margin-left: 1px;
+font-size: 20px;
+}
+.recommendations{
+  color:#fd5c63;
+  margin-top:5%;
+  margin-left: 1px;
+  font-weight: bold;
+}
+
+iframe { margin-top:3%;
+margin-top:3%;
+margin-left: 2%;}
+
+.petlistings{color:#686868;
+margin-top: 2%;
+margin-left: 2%;
+font-size: 20px}
+.pet{color: #fd5c63;
+  font-size: 30px;
+  margin-top: 10%;
+  margin-left: 2%;}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 80vh;
+  width: 100%;
+}
+
+#map-container {
+  position: relative;
+}
+
+.checkboxes {
+  position: absolute;
+  right: 15px;
+  top: 70px;
+  z-index: 20000;
+}
+
+.buttons {
+  position: relative;
+  right: 1px;
+  top: 1px;
+  z-index: 20000;
+}
+
+.HMmanuf-button {
+  background: #F0F0F0;
+  padding: 20px;
+  border-radius: 20px 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.reset-button {
+  background: #F0F0F0;
+  padding: 5px;
+  border-radius: 5px 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.sidebar{
+  background: #eee;
+  float: right;
+  height: 60%;
+  padding: 20px;
+  width: 98%;
+}
+.sidebar-footer{
+  margin-top: 75px;
+}
+  
+.layer-picker {
+  position: relative;
+  left: 1300px;
+  top: 15px;
+  z-index: 20000;
+}
