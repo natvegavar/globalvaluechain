@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Global Valuen Chains in the Garment Industryv</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <!--   load google fonts   -->
+<link href="https://fonts.googleapis.com/css?family=Bellota|Oswald&display=swap" rel="stylesheet">    
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+  
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.2.0/carto.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+  </head>
+  <body>
+      <h1> Global Value Chains in the Garment Industry </h1>
+    
+<div id="map-container">
+       <div id="map"></div>
+   <div class="sidebar">
+      <select class="layer-picker">
+        <option value="all"> Show all </option>
+        <option value="Exporters"> Textile Exporters</option>
+        <option value="Exporters">Clothing Exporters</option>
+        <option value="Importers">Textile Importers</option>
+        <option value="Importers">Clothing Importers</option>
+      </select>
+              
+        <!-- We create a div where the feature data will go when clicked on: -->
+        <div class="sidebar-feature-content"></div>
+        <div class="buttons">
+        <button class="HMmanuf-button">
+         Show Garment Manufacturing Factories - H&M Suppliers
+        </button>
+        <button class="reset-button">
+          reset
+        </button>
+      </div>
+        <div class="sidebar-footer">
+          <a href="http://insideairbnb.com/">data via inside airbnb</a>
+        </div>
+      </div> 
+         </div>
+    
+  
+    <p></p>
+    <p></p>
+  </body>
+</html>
